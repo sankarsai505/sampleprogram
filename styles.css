@@ -1,0 +1,42 @@
+#calculator {
+    width: 400px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    background-color: black;
+}
+
+input[type="text"],
+input[type="button"] {
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    font-size: 24px;
+}
+
+#display {
+    width: 340px;
+    border: 2px solid #000;
+    color: black;
+    background-color: white;
+    border-radius: 8px solid black;
+}
+
+.button {
+    display: inline-flex;
+    color: black;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.button.ac {
+    background-color: red;
+    color: white;
+}
